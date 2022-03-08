@@ -1,0 +1,44 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 4, 2022
+ *      Author: bergma
+ */
+
+#include <iostream>
+#include <fstream>
+#include <string>
+
+#define SERVER_H_LOOKUP 'server_hostname'
+
+using namespace std;
+
+void splitString(string str, string delimiter = "	") {
+	int start = 0;
+	int end = str.find(delimiter);
+	while (end != -1) {
+		cout << str.substr(start, end - start) << endl;
+		start = end + delimiter.size();
+		end = str.find(delimiter, start);
+	}
+	cout << str.substr(start, end - start);
+}
+
+int main(void) {
+	fstream conf_file;
+
+	string line, s;
+	//const char delim = " ";
+
+	conf_file.open("~/Gokart_CAN_API/Power_off/server.conf", fstream::in);
+
+	while (getline(conf_file, line))
+	{
+		// Split String by space in C++
+		string a = "How to split String in C++";
+		splitString(line, "	");
+		cout << endl;
+	}
+
+	return 0;
+}

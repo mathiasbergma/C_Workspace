@@ -1,0 +1,17 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 4, 2022
+ *      Author: bergma
+ */
+
+
+#include <iostream>
+
+using namespace std;
+
+int main(void)
+{
+
+	return 0;
+}

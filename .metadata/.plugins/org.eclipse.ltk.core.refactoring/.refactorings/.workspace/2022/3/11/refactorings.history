@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MQTT_client&apos; to &apos;MQTT_publisher&apos;" description="Rename resource &apos;MQTT_client&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MQTT_client" name="MQTT_publisher" stamp="1646692830645" updateReferences="true"/>
+</session>

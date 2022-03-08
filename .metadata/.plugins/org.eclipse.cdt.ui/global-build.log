@@ -1,0 +1,2553 @@
+16:29:59 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:30:05 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:32:11 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+16:32:14 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:33:53 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+16:33:54 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:35:29 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+16:35:32 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:36:22 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+16:36:24 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:40:42 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+16:40:44 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:41:17 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+16:41:19 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:42:17 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+16:42:20 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:42:38 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+16:42:41 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+16:43:08 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:14:10: warning: division by zero [-Wdiv-by-zero]
+   14 |   if (!(i%(999/1000)))
+      |         ~^~~~~~~~~~~
+../main.cpp:16:40: warning: division by zero [-Wdiv-by-zero]
+   16 |   cout << "Modulus " << i << "= " << i % (999/1000) << endl;
+      |                                      ~~^~~~~~~~~~~~
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+17:04:08 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+17:04:11 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+17:04:26 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+17:04:29 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+17:04:44 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+17:04:46 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:07 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+17:05:10 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+18:07:13 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+18:36:13 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++  -o "Test"  ./main.o   
+Finished building target: Test
+ 
+18:36:16 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+22:20:14 **** Build of configuration Debug for project Hello_World ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Hello_World
+Invoking: GCC C Linker
+gcc  -o "Hello_World"  ./main.o   
+Finished building target: Hello_World
+ 
+22:20:15 **** Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:51 **** Clean-only build of configuration Debug for project donthup ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  donthup
+ 
+20:22:51 **** Build of configuration Debug for project donthup ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: donthup
+Invoking: GCC C Linker
+gcc  -o "donthup"  ./src/main.o   
+Finished building target: donthup
+ 
+20:23:56 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: donthup
+Invoking: GCC C Linker
+gcc  -o "donthup"  ./src/main.o   
+Finished building target: donthup
+ 
+20:24:03 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: donthup
+Invoking: GCC C Linker
+gcc  -o "donthup"  ./src/main.o   
+Finished building target: donthup
+ 
+18:35:42 **** Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:56:21: warning: unused variable ‘res’ [-Wunused-variable]
+   56 |     struct timespec res;
+      |                     ^~~
+../timer opgave.c:55:21: warning: unused variable ‘tmp’ [-Wunused-variable]
+   55 |     struct timespec tmp;
+      |                     ^~~
+../timer opgave.c: In function ‘userpress’:
+../timer opgave.c:121:18: error: incompatible type for argument 1 of ‘show_tmvalue’
+  121 |     show_tmvalue(diff_s);
+      |                  ^~~~~~
+      |                  |
+      |                  double
+../timer opgave.c:27:35: note: expected ‘struct timespec’ but argument is of type ‘double’
+   27 | void show_tmvalue(struct timespec value) {
+      |                   ~~~~~~~~~~~~~~~~^~~~~
+../timer opgave.c:83:17: warning: variable ‘diff_n’ set but not used [-Wunused-but-set-variable]
+   83 |  double diff_s, diff_n;
+      |                 ^~~~~~
+../timer opgave.c: In function ‘init’:
+../timer opgave.c:197:5: warning: "/*" within comment [-Wcomment]
+  197 |     /*
+      |      
+../timer opgave.c:167:18: warning: unused variable ‘sev’ [-Wunused-variable]
+  167 |  struct sigevent sev;
+      |                  ^~~
+At top level:
+../timer opgave.c:130:13: warning: ‘arm_timer’ defined but not used [-Wunused-function]
+  130 | static void arm_timer(timer_t tmrid, struct itimerspec *itmspec)
+      |             ^~~~~~~~~
+../timer opgave.c:50:13: warning: ‘timer_handler’ defined but not used [-Wunused-function]
+   50 | static void timer_handler(int sig, siginfo_t * si, void *uc)
+      |             ^~~~~~~~~~~~~
+../timer opgave.c:18:16: warning: ‘timerid’ defined but not used [-Wunused-variable]
+   18 | static timer_t timerid;
+      |                ^~~~~~~
+../timer opgave.c:17:26: warning: ‘itv’ defined but not used [-Wunused-variable]
+   17 | static struct itimerspec itv;
+      |                          ^~~
+make: *** [subdir.mk:20: timer opgave.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:35:43 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:36 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:56:21: warning: unused variable ‘res’ [-Wunused-variable]
+   56 |     struct timespec res;
+      |                     ^~~
+../timer opgave.c:55:21: warning: unused variable ‘tmp’ [-Wunused-variable]
+   55 |     struct timespec tmp;
+      |                     ^~~
+../timer opgave.c: In function ‘init’:
+../timer opgave.c:196:5: warning: "/*" within comment [-Wcomment]
+  196 |     /*
+      |      
+../timer opgave.c:166:18: warning: unused variable ‘sev’ [-Wunused-variable]
+  166 |  struct sigevent sev;
+      |                  ^~~
+At top level:
+../timer opgave.c:129:13: warning: ‘arm_timer’ defined but not used [-Wunused-function]
+  129 | static void arm_timer(timer_t tmrid, struct itimerspec *itmspec)
+      |             ^~~~~~~~~
+../timer opgave.c:50:13: warning: ‘timer_handler’ defined but not used [-Wunused-function]
+   50 | static void timer_handler(int sig, siginfo_t * si, void *uc)
+      |             ^~~~~~~~~~~~~
+../timer opgave.c:18:16: warning: ‘timerid’ defined but not used [-Wunused-variable]
+   18 | static timer_t timerid;
+      |                ^~~~~~~
+../timer opgave.c:17:26: warning: ‘itv’ defined but not used [-Wunused-variable]
+   17 | static struct itimerspec itv;
+      |                          ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   
+/usr/bin/ld: ./timer opgave.o: in function `arm_timer':
+/home/bergma/c_workspace/Timers/Debug/../timer opgave.c:133: undefined reference to `timer_settime'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:45: Timers] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:37:36 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+18:39:33 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrtm
+/usr/bin/ld: cannot find -lrtm
+collect2: error: ld returned 1 exit status
+make: *** [makefile:45: Timers] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:39:33 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+18:40:09 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+18:40:10 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:07:22 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:57:21: warning: unused variable ‘res’ [-Wunused-variable]
+   57 |     struct timespec res;
+      |                     ^~~
+../timer opgave.c:56:21: warning: unused variable ‘tmp’ [-Wunused-variable]
+   56 |     struct timespec tmp;
+      |                     ^~~
+../timer opgave.c: In function ‘init’:
+../timer opgave.c:188:21: error: ‘SEGEV_SIGNAL’ undeclared (first use in this function); did you mean ‘SIGEV_SIGNAL’?
+  188 |  sev.sigev_notify = SEGEV_SIGNAL;
+      |                     ^~~~~~~~~~~~
+      |                     SIGEV_SIGNAL
+../timer opgave.c:188:21: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../timer opgave.c:130:13: warning: ‘arm_timer’ defined but not used [-Wunused-function]
+  130 | static void arm_timer(timer_t tmrid, struct itimerspec *itmspec)
+      |             ^~~~~~~~~
+../timer opgave.c:17:26: warning: ‘itv’ defined but not used [-Wunused-variable]
+   17 | static struct itimerspec itv;
+      |                          ^~~
+make: *** [subdir.mk:20: timer opgave.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:07:23 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:08:30 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:58:21: warning: unused variable ‘res’ [-Wunused-variable]
+   58 |     struct timespec res;
+      |                     ^~~
+../timer opgave.c:57:21: warning: unused variable ‘tmp’ [-Wunused-variable]
+   57 |     struct timespec tmp;
+      |                     ^~~
+../timer opgave.c: In function ‘init’:
+../timer opgave.c:189:21: error: ‘SEGEV_SIGNAL’ undeclared (first use in this function); did you mean ‘SIGEV_SIGNAL’?
+  189 |  sev.sigev_notify = SEGEV_SIGNAL;
+      |                     ^~~~~~~~~~~~
+      |                     SIGEV_SIGNAL
+../timer opgave.c:189:21: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../timer opgave.c:131:13: warning: ‘arm_timer’ defined but not used [-Wunused-function]
+  131 | static void arm_timer(timer_t tmrid, struct itimerspec *itmspec)
+      |             ^~~~~~~~~
+../timer opgave.c:18:26: warning: ‘itv’ defined but not used [-Wunused-variable]
+   18 | static struct itimerspec itv;
+      |                          ^~~
+make: *** [subdir.mk:20: timer opgave.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:08:31 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:09:48 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:58:21: warning: unused variable ‘res’ [-Wunused-variable]
+   58 |     struct timespec res;
+      |                     ^~~
+../timer opgave.c:57:21: warning: unused variable ‘tmp’ [-Wunused-variable]
+   57 |     struct timespec tmp;
+      |                     ^~~
+At top level:
+../timer opgave.c:131:13: warning: ‘arm_timer’ defined but not used [-Wunused-function]
+  131 | static void arm_timer(timer_t tmrid, struct itimerspec *itmspec)
+      |             ^~~~~~~~~
+../timer opgave.c:18:26: warning: ‘itv’ defined but not used [-Wunused-variable]
+   18 | static struct itimerspec itv;
+      |                          ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:09:49 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:13:03 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:59:21: warning: unused variable ‘res’ [-Wunused-variable]
+   59 |     struct timespec res;
+      |                     ^~~
+../timer opgave.c:58:21: warning: unused variable ‘tmp’ [-Wunused-variable]
+   58 |     struct timespec tmp;
+      |                     ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:13:03 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:11 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:71:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__time_t’ {aka ‘long int’} [-Wformat=]
+   71 |     printf("Elapsed time: %d\n",tmp.tv_sec);
+      |                           ~^    ~~~~~~~~~~
+      |                            |       |
+      |                            int     __time_t {aka long int}
+      |                           %ld
+../timer opgave.c:59:21: warning: unused variable ‘res’ [-Wunused-variable]
+   59 |     struct timespec res;
+      |                     ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:23:12 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:36 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:59:21: warning: unused variable ‘res’ [-Wunused-variable]
+   59 |     struct timespec res;
+      |                     ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:23:37 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:30:05 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:59:21: warning: unused variable ‘res’ [-Wunused-variable]
+   59 |     struct timespec res;
+      |                     ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:30:05 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:40 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:50 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:22 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:35 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:30 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:59:21: warning: unused variable ‘res’ [-Wunused-variable]
+   59 |     struct timespec res;
+      |                     ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:42:31 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:33 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+19:47:54 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:61:21: warning: unused variable ‘res’ [-Wunused-variable]
+   61 |     struct timespec res;
+      |                     ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:47:54 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:38 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:61:21: warning: unused variable ‘res’ [-Wunused-variable]
+   61 |     struct timespec res;
+      |                     ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:50:38 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:18 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘timer_handler’:
+../timer opgave.c:61:21: warning: unused variable ‘res’ [-Wunused-variable]
+   61 |     struct timespec res;
+      |                     ^~~
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:53:18 **** Incremental Build of configuration Debug for project donthup ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:33 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:15 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:55:54 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+20:02:00 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+20:03:30 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+21:41:44 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+21:41:45 **** Build of configuration Debug for project mqtt ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:16:10: fatal error: mqtt.h: No such file or directory
+   16 | #include <mqtt.h>
+      |          ^~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:41:59 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:00 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+In file included from ../main.c:16:
+../mqtt.h:43:10: fatal error: mqtt_pal.h: No such file or directory
+   43 | #include <mqtt_pal.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:42:40 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:40 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: mqtt
+Invoking: GCC C Linker
+gcc  -o "mqtt"  ./main.o   
+/usr/bin/ld: ./main.o: in function `main':
+/home/bergma/c_workspace/mqtt/Debug/../main.c:84: undefined reference to `mqtt_init'
+/usr/bin/ld: /home/bergma/c_workspace/mqtt/Debug/../main.c:90: undefined reference to `mqtt_connect'
+/usr/bin/ld: /home/bergma/c_workspace/mqtt/Debug/../main.c:94: undefined reference to `mqtt_error_str'
+/usr/bin/ld: /home/bergma/c_workspace/mqtt/Debug/../main.c:100: undefined reference to `pthread_create'
+/usr/bin/ld: /home/bergma/c_workspace/mqtt/Debug/../main.c:124: undefined reference to `mqtt_publish'
+/usr/bin/ld: /home/bergma/c_workspace/mqtt/Debug/../main.c:128: undefined reference to `mqtt_error_str'
+/usr/bin/ld: ./main.o: in function `exit_example':
+/home/bergma/c_workspace/mqtt/Debug/../main.c:144: undefined reference to `pthread_cancel'
+/usr/bin/ld: ./main.o: in function `client_refresher':
+/home/bergma/c_workspace/mqtt/Debug/../main.c:159: undefined reference to `mqtt_sync'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:45: mqtt] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:43:29 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:29 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../mqtt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mqtt.d" -MT"mqtt.o" -o "mqtt.o" "../mqtt.c"
+../mqtt.c:25:10: fatal error: mqtt.h: No such file or directory
+   25 | #include <mqtt.h>
+      |          ^~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:26: mqtt.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:44:05 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:05 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+Building file: ../mqtt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mqtt.d" -MT"mqtt.o" -o "mqtt.o" "../mqtt.c"
+Finished building: ../mqtt.c
+ 
+Building file: ../mqtt_pal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mqtt_pal.d" -MT"mqtt_pal.o" -o "mqtt_pal.o" "../mqtt_pal.c"
+Finished building: ../mqtt_pal.c
+ 
+Building target: mqtt
+Invoking: GCC C Linker
+gcc  -o "mqtt"  ./main.o ./mqtt.o ./mqtt_pal.o   
+/usr/bin/ld: ./main.o: in function `main':
+/home/bergma/c_workspace/mqtt/Debug/../main.c:100: undefined reference to `pthread_create'
+/usr/bin/ld: ./main.o: in function `exit_example':
+/home/bergma/c_workspace/mqtt/Debug/../main.c:144: undefined reference to `pthread_cancel'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:45: mqtt] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:45:39 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:39 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:15:10: fatal error: pthread: No such file or directory
+   15 | #include <pthread>
+      |          ^~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:26: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:46:16 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+21:46:17 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../mqtt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mqtt.d" -MT"mqtt.o" -o "mqtt.o" "../mqtt.c"
+Finished building: ../mqtt.c
+ 
+Building file: ../mqtt_pal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mqtt_pal.d" -MT"mqtt_pal.o" -o "mqtt_pal.o" "../mqtt_pal.c"
+Finished building: ../mqtt_pal.c
+ 
+Building target: mqtt
+Invoking: GCC C Linker
+gcc  -o "mqtt"  ./main.o ./mqtt.o ./mqtt_pal.o   -lpthread
+Finished building target: mqtt
+ 
+21:46:26 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+21:52:05 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+21:52:49 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+19:29:05 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+19:34:59 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:35:00 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+19:46:12 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:46:13 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:30 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+../timer opgave.c: In function ‘userpress’:
+../timer opgave.c:89:12: error: both ‘long long’ and ‘double’ in declaration specifiers
+   89 |  long long double diff_ns = 0;
+      |            ^~~~~~
+make: *** [subdir.mk:20: timer opgave.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:53:30 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+19:57:18 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+19:57:18 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+19:59:12 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+20:00:14 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+20:00:14 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+20:00:18 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+20:00:45 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+08:49:08 **** Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:9:10: fatal error: stdio: No such file or directory
+    9 | #include <stdio>
+      |          ^~~~~~~
+compilation terminated.
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:49:09 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+Building file: ../timer opgave.c
+Invoking: GCC C Compiler
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"timer opgave.d" -MT"timer opgave.o" -o "timer opgave.o" "../timer opgave.c"
+Finished building: ../timer opgave.c
+ 
+Building target: Timers
+Invoking: GCC C Linker
+gcc  -o "Timers"  ./timer\ opgave.o   -lrt -lm
+Finished building target: Timers
+ 
+08:49:10 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+08:50:17 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+08:50:18 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+08:50:19 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+08:51:02 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+08:51:05 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+08:51:06 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+08:51:15 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+08:51:16 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+08:51:17 **** Incremental Build of configuration Debug for project mqtt ****
+make all 
+make: Nothing to be done for 'all'.
+09:48:16 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:59: error: ‘in’ was not declared in this scope; did you mean ‘int’?
+   18 |  conf_file.open("~/Gokart_CAN_API/Power_off/server.conf", in);
+      |                                                           ^~
+      |                                                           int
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:48:50 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+09:51:14 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:19:13: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   19 |  string line:
+      |             ^
+      |             ::
+../main.cpp:19:9: error: ‘line’ has not been declared
+   19 |  string line:
+      |         ^~~~
+../main.cpp:21:11: error: qualified-id in declaration before ‘.’ token
+   21 |  conf_file.open("~/Gokart_CAN_API/Power_off/server.conf", fstream::in);
+      |           ^
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:51:46 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:19:18: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   19 |  std::string line:
+      |                  ^
+      |                  ::
+../main.cpp:19:14: error: ‘line’ has not been declared
+   19 |  std::string line:
+      |              ^~~~
+../main.cpp:21:11: error: qualified-id in declaration before ‘.’ token
+   21 |  conf_file.open("~/Gokart_CAN_API/Power_off/server.conf", fstream::in);
+      |           ^
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:54:54 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+09:59:47 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:29:24: error: no matching function for call to ‘getline(std::string&, std::string&, char)’
+   29 |    getline(line, s, ' ');
+      |                        ^
+In file included from /usr/include/c++/9/cstdio:42,
+                 from /usr/include/c++/9/ext/string_conversions.h:43,
+                 from /usr/include/c++/9/bits/basic_string.h:6493,
+                 from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/stdio.h:616:18: note: candidate: ‘__ssize_t getline(char**, size_t*, FILE*)’
+  616 | extern __ssize_t getline (char **__restrict __lineptr,
+      |                  ^~~~~~~
+/usr/include/stdio.h:616:45: note:   no known conversion for argument 1 from ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘char**’
+  616 | extern __ssize_t getline (char **__restrict __lineptr,
+      |                           ~~~~~~~~~~~~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/9/string:56,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/c++/9/bits/basic_string.tcc:1538:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)’
+ 1538 |     getline(basic_istream<_CharT, _Traits>& __in,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.tcc:1538:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:24: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   29 |    getline(line, s, ' ');
+      |                        ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/c++/9/bits/basic_string.h:6456:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6456 |     getline(basic_istream<_CharT, _Traits>& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6456:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:24: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   29 |    getline(line, s, ' ');
+      |                        ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/c++/9/bits/basic_string.h:6464:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)’
+ 6464 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6464:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:24: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   29 |    getline(line, s, ' ');
+      |                        ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/c++/9/bits/basic_string.h:6471:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6471 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6471:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:24: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   29 |    getline(line, s, ' ');
+      |                        ^
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:19:46 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:22:21: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   22 |  const char delim = " ";
+      |                     ^~~
+      |                     |
+      |                     const char*
+../main.cpp:30:26: error: expected ‘)’ before ‘;’ token
+   30 |    getline(line, s, delim;
+      |           ~              ^
+      |                          )
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:20:03 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:30:26: error: expected ‘)’ before ‘;’ token
+   30 |    getline(line, s, delim;
+      |           ~              ^
+      |                          )
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:20:11 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:22:21: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   22 |  const char delim = "";
+      |                     ^~
+      |                     |
+      |                     const char*
+../main.cpp:30:26: error: expected ‘)’ before ‘;’ token
+   30 |    getline(line, s, delim;
+      |           ~              ^
+      |                          )
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:20:18 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:22:21: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   22 |  const char delim = "";
+      |                     ^~
+      |                     |
+      |                     const char*
+../main.cpp:30:26: error: no matching function for call to ‘getline(std::string&, std::string&, const char&)’
+   30 |    getline(line, s, delim);
+      |                          ^
+In file included from /usr/include/c++/9/cstdio:42,
+                 from /usr/include/c++/9/ext/string_conversions.h:43,
+                 from /usr/include/c++/9/bits/basic_string.h:6493,
+                 from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/stdio.h:616:18: note: candidate: ‘__ssize_t getline(char**, size_t*, FILE*)’
+  616 | extern __ssize_t getline (char **__restrict __lineptr,
+      |                  ^~~~~~~
+/usr/include/stdio.h:616:45: note:   no known conversion for argument 1 from ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘char**’
+  616 | extern __ssize_t getline (char **__restrict __lineptr,
+      |                           ~~~~~~~~~~~~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/9/string:56,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/c++/9/bits/basic_string.tcc:1538:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)’
+ 1538 |     getline(basic_istream<_CharT, _Traits>& __in,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.tcc:1538:5: note:   template argument deduction/substitution failed:
+../main.cpp:30:26: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   30 |    getline(line, s, delim);
+      |                          ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/c++/9/bits/basic_string.h:6456:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6456 |     getline(basic_istream<_CharT, _Traits>& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6456:5: note:   template argument deduction/substitution failed:
+../main.cpp:30:26: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   30 |    getline(line, s, delim);
+      |                          ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/c++/9/bits/basic_string.h:6464:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)’
+ 6464 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6464:5: note:   template argument deduction/substitution failed:
+../main.cpp:30:26: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   30 |    getline(line, s, delim);
+      |                          ^
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:9:
+/usr/include/c++/9/bits/basic_string.h:6471:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6471 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6471:5: note:   template argument deduction/substitution failed:
+../main.cpp:30:26: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_istream<_CharT, _Traits>’
+   30 |    getline(line, s, delim);
+      |                          ^
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:25:07 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:31:21: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   31 |  const char delim = "";
+      |                     ^~
+      |                     |
+      |                     const char*
+../main.cpp:31:13: warning: unused variable ‘delim’ [-Wunused-variable]
+   31 |  const char delim = "";
+      |             ^~~~~
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:25:25 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:31:21: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   31 |  const char delim = " ";
+      |                     ^~~
+      |                     |
+      |                     const char*
+../main.cpp:31:13: warning: unused variable ‘delim’ [-Wunused-variable]
+   31 |  const char delim = " ";
+      |             ^~~~~
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:25:36 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+10:25:56 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+10:26:05 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+10:26:41 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+10:27:32 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+10:27:35 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+10:31:10 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:9:10: fatal error: ifstream: No such file or directory
+    9 | #include <ifstream>
+      |          ^~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:31:28 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+10:31:32 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+10:31:50 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+10:32:36 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+10:32:42 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+10:33:13 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+10:33:24 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+10:34:02 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+10:34:11 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+10:34:38 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:58 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+11:52:01 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:01 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:49:48: error: invalid operands of types ‘<unresolved overloaded function type>’ and ‘int’ to binary ‘operator==’
+   49 |    if (line.substr(start, end - start).compare == 0)
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^~ ~
+      |                                        |          |
+      |                                        |          int
+      |                                        <unresolved overloaded function type>
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:56:35 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:49:8: error: no match for ‘operator<<’ (operand types are ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} and ‘std::__cxx11::basic_string<char>’)
+   49 |    str << line.substr(start, end - start);
+      |    ~~~ ^~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |    |                 |
+      |    |                 basic_string<[...]>
+      |    basic_string<[...]>
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6416:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6416 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6416:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/bits/ios_base.h:46,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/system_error:217:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
+  217 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+/usr/include/c++/9/system_error:217:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:506:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:506:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:511:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:517:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
+  517 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:517:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:523:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
+  523 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:523:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:528:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
+  528 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:548:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
+  548 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:548:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/ostream:702,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:565:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
+  565 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:565:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:578:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
+  578 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:578:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:583:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
+  583 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:583:5: note:   template argument deduction/substitution failed:
+../main.cpp:49:41: note:   ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+   49 |    str << line.substr(start, end - start);
+      |                                         ^
+In file included from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ostream:691:5: note: candidate: ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)’
+  691 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+/usr/include/c++/9/ostream:691:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/9/ostream: In substitution of ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::__cxx11::basic_string<char>&; _Tp = std::__cxx11::basic_string<char>]’:
+../main.cpp:49:41:   required from here
+/usr/include/c++/9/ostream:691:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:24:46 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:49:43: warning: character constant too long for its type
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+../main.cpp: In function ‘int main()’:
+../main.cpp:49:40: error: no match for ‘operator==’ (operand types are ‘std::__cxx11::basic_string<char>’ and ‘int’)
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^~
+      |                   |
+      |                   std::__cxx11::basic_string<char>
+In file included from /usr/include/c++/9/iosfwd:40,
+                 from /usr/include/c++/9/ios:38,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/postypes.h:222:5: note: candidate: ‘template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)’
+  222 |     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/postypes.h:222:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const std::fpos<_StateT>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/stl_algobase.h:64,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/stl_pair.h:448:5: note: candidate: ‘template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)’
+  448 |     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_pair.h:448:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const std::pair<_T1, _T2>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/stl_iterator.h:325:5: note: candidate: ‘template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)’
+  325 |     operator==(const reverse_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:325:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/stl_iterator.h:363:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)’
+  363 |     operator==(const reverse_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:363:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/stl_iterator.h:1139:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)’
+ 1139 |     operator==(const move_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:1139:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/stl_iterator.h:1145:5: note: candidate: ‘template<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)’
+ 1145 |     operator==(const move_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:1145:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/string:41,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/allocator.h:168:5: note: candidate: ‘template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)’
+  168 |     operator==(const allocator<_T1>&, const allocator<_T2>&)
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/allocator.h:168:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const std::allocator<_CharT>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6141:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6141 |     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6141:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6149:5: note: candidate: ‘template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)’
+ 6149 |     operator==(const basic_string<_CharT>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6149:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT>’ and ‘int’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6163:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6163 |     operator==(const _CharT* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6163:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   mismatched types ‘const _CharT*’ and ‘std::__cxx11::basic_string<char>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/string:55,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/basic_string.h:6175:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)’
+ 6175 |     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6175:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   mismatched types ‘const _CharT*’ and ‘int’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/ios_base.h:46,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/system_error:292:3: note: candidate: ‘bool std::operator==(const std::error_code&, const std::error_code&)’
+  292 |   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/9/system_error:292:32: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘const std::error_code&’
+  292 |   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+      |              ~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/9/system_error:297:3: note: candidate: ‘bool std::operator==(const std::error_code&, const std::error_condition&)’
+  297 |   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/9/system_error:297:32: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘const std::error_code&’
+  297 |   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+      |              ~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/9/system_error:304:3: note: candidate: ‘bool std::operator==(const std::error_condition&, const std::error_code&)’
+  304 |   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/9/system_error:304:37: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘const std::error_condition&’
+  304 |   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+      |              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/9/system_error:311:3: note: candidate: ‘bool std::operator==(const std::error_condition&, const std::error_condition&)’
+  311 |   operator==(const error_condition& __lhs,
+      |   ^~~~~~~~
+/usr/include/c++/9/system_error:311:37: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘const std::error_condition&’
+  311 |   operator==(const error_condition& __lhs,
+      |              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+In file included from /usr/include/c++/9/bits/locale_facets.h:48,
+                 from /usr/include/c++/9/bits/basic_ios.h:37,
+                 from /usr/include/c++/9/ios:44,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/streambuf_iterator.h:208:5: note: candidate: ‘template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)’
+  208 |     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/streambuf_iterator.h:208:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const std::istreambuf_iterator<_CharT, _Traits>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/string:41,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/allocator.h:156:7: note: candidate: ‘bool std::operator==(const std::allocator<char>&, const std::allocator<char>&)’
+  156 |       operator==(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+      |       ^~~~~~~~
+/usr/include/c++/9/bits/allocator.h:156:18: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘const std::allocator<char>&’
+  156 |       operator==(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+      |                  ^~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/stl_iterator.h:886:5: note: candidate: ‘template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)’
+  886 |     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:886:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/bits/stl_iterator.h:893:5: note: candidate: ‘template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)’
+  893 |     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:893:5: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   ‘std::__cxx11::basic_string<char>’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33,
+                 from /usr/include/c++/9/bits/allocator.h:46,
+                 from /usr/include/c++/9/string:41,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from ../main.cpp:8:
+/usr/include/c++/9/ext/new_allocator.h:167:2: note: candidate: ‘template<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)’
+  167 |  operator==(const new_allocator&, const new_allocator<_Up>&)
+      |  ^~~~~~~~
+/usr/include/c++/9/ext/new_allocator.h:167:2: note:   template argument deduction/substitution failed:
+../main.cpp:14:25: note:   mismatched types ‘const __gnu_cxx::new_allocator<_Tp>’ and ‘int’
+   14 | #define SERVER_H_LOOKUP 'server_hostname'
+      |                         ^~~~~~~~~~~~~~~~~
+../main.cpp:49:43: note: in expansion of macro ‘SERVER_H_LOOKUP’
+   49 |    if (line.substr(start, end - start) == SERVER_H_LOOKUP)
+      |                                           ^~~~~~~~~~~~~~~
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:25:05 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+12:29:20 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+12:29:23 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+12:30:47 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:16:26: error: expected initializer before ‘.’ token
+   16 | string ca_path, cert_path. key_path;
+      |                          ^
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:47:18 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+12:47:21 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+12:47:55 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+12:48:38 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Read_conf
+Invoking: GCC C++ Linker
+g++  -o "Read_conf"  ./main.o   
+Finished building target: Read_conf
+ 
+12:48:41 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+12:49:46 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+12:49:48 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:35:44 **** Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:37:35 **** Build of configuration Debug for project MQTT_client ****
+make all 
+Building file: ../client.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"client.d" -MT"client.o" -o "client.o" "../client.c"
+Finished building: ../client.c
+ 
+Building target: MQTT_client
+Invoking: GCC C Linker
+gcc  -o "MQTT_client"  ./client.o   
+Finished building target: MQTT_client
+ 
+23:37:35 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:45:44 **** Clean-only build of configuration Debug for project MQTT_publisher ****
+make clean 
+rm -rf  ./client.o  ./client.d  MQTT_client
+ 
+23:45:44 **** Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building file: ../publisher.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"publisher.d" -MT"publisher.o" -o "publisher.o" "../publisher.c"
+../publisher.c: In function ‘main’:
+../publisher.c:57:19: error: ‘ONmsg’ undeclared (first use in this function)
+   57 |  pubmsg.payload = ONmsg;
+      |                   ^~~~~
+../publisher.c:57:19: note: each undeclared identifier is reported only once for each function it appears in
+../publisher.c:58:22: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+   58 |  pubmsg.payloadlen = strlen(ONmsg);
+      |                      ^~~~~~
+../publisher.c:58:22: warning: incompatible implicit declaration of built-in function ‘strlen’
+../publisher.c:11:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+   10 | #include <unistd.h>
+  +++ |+#include <string.h>
+   11 | 
+../publisher.c:28:24: warning: unused variable ‘ssl_opts’ [-Wunused-variable]
+   28 |  MQTTClient_SSLOptions ssl_opts = MQTTClient_SSLOptions_initializer;
+      |                        ^~~~~~~~
+make: *** [subdir.mk:20: publisher.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:45:45 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:46:29 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building file: ../publisher.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"publisher.d" -MT"publisher.o" -o "publisher.o" "../publisher.c"
+../publisher.c: In function ‘main’:
+../publisher.c:59:22: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+   59 |  pubmsg.payloadlen = strlen(msg);
+      |                      ^~~~~~
+../publisher.c:59:22: warning: incompatible implicit declaration of built-in function ‘strlen’
+../publisher.c:11:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+   10 | #include <unistd.h>
+  +++ |+#include <string.h>
+   11 | 
+../publisher.c:28:24: warning: unused variable ‘ssl_opts’ [-Wunused-variable]
+   28 |  MQTTClient_SSLOptions ssl_opts = MQTTClient_SSLOptions_initializer;
+      |                        ^~~~~~~~
+Finished building: ../publisher.c
+ 
+Building target: MQTT_publisher
+Invoking: GCC C Linker
+gcc  -o "MQTT_publisher"  ./publisher.o   
+/usr/bin/ld: ./publisher.o: in function `main':
+/home/bergma/c_workspace/MQTT_publisher/Debug/../publisher.c:30: undefined reference to `MQTTClient_create'
+/usr/bin/ld: /home/bergma/c_workspace/MQTT_publisher/Debug/../publisher.c:51: undefined reference to `MQTTClient_connect'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:45: MQTT_publisher] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:46:29 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:46:55 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building file: ../publisher.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"publisher.d" -MT"publisher.o" -o "publisher.o" "../publisher.c"
+../publisher.c: In function ‘main’:
+../publisher.c:29:24: warning: unused variable ‘ssl_opts’ [-Wunused-variable]
+   29 |  MQTTClient_SSLOptions ssl_opts = MQTTClient_SSLOptions_initializer;
+      |                        ^~~~~~~~
+Finished building: ../publisher.c
+ 
+Building target: MQTT_publisher
+Invoking: GCC C Linker
+gcc  -o "MQTT_publisher"  ./publisher.o   
+/usr/bin/ld: ./publisher.o: in function `main':
+/home/bergma/c_workspace/MQTT_publisher/Debug/../publisher.c:31: undefined reference to `MQTTClient_create'
+/usr/bin/ld: /home/bergma/c_workspace/MQTT_publisher/Debug/../publisher.c:52: undefined reference to `MQTTClient_connect'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:45: MQTT_publisher] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:46:55 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:48:00 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building target: MQTT_publisher
+Invoking: GCC C Linker
+gcc  -o "MQTT_publisher"  ./publisher.o   -lpaho-mqtt3c
+Finished building target: MQTT_publisher
+ 
+23:48:01 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:05 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building file: ../publisher.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"publisher.d" -MT"publisher.o" -o "publisher.o" "../publisher.c"
+../publisher.c: In function ‘handler’:
+../publisher.c:27:5: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   27 |     exit(EXIT_SUCCESS);
+      |     ^~~~
+../publisher.c:27:5: warning: incompatible implicit declaration of built-in function ‘exit’
+../publisher.c:13:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+   12 | #include <signal.h>
+  +++ |+#include <stdlib.h>
+   13 | 
+../publisher.c:27:10: error: ‘EXIT_SUCCESS’ undeclared (first use in this function)
+   27 |     exit(EXIT_SUCCESS);
+      |          ^~~~~~~~~~~~
+../publisher.c:27:10: note: each undeclared identifier is reported only once for each function it appears in
+../publisher.c: In function ‘main’:
+../publisher.c:48:24: warning: unused variable ‘ssl_opts’ [-Wunused-variable]
+   48 |  MQTTClient_SSLOptions ssl_opts = MQTTClient_SSLOptions_initializer;
+      |                        ^~~~~~~~
+make: *** [subdir.mk:20: publisher.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:55:06 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:06 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:12 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building file: ../publisher.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"publisher.d" -MT"publisher.o" -o "publisher.o" "../publisher.c"
+../publisher.c: In function ‘handler’:
+../publisher.c:27:5: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   27 |     exit(EXIT_SUCCESS);
+      |     ^~~~
+../publisher.c:27:5: warning: incompatible implicit declaration of built-in function ‘exit’
+../publisher.c:13:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+   12 | #include <signal.h>
+  +++ |+#include <stdlib.h>
+   13 | 
+../publisher.c:27:10: error: ‘EXIT_SUCCESS’ undeclared (first use in this function)
+   27 |     exit(EXIT_SUCCESS);
+      |          ^~~~~~~~~~~~
+../publisher.c:27:10: note: each undeclared identifier is reported only once for each function it appears in
+../publisher.c: In function ‘main’:
+../publisher.c:48:24: warning: unused variable ‘ssl_opts’ [-Wunused-variable]
+   48 |  MQTTClient_SSLOptions ssl_opts = MQTTClient_SSLOptions_initializer;
+      |                        ^~~~~~~~
+make: *** [subdir.mk:20: publisher.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:55:13 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:13 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:56 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building file: ../publisher.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"publisher.d" -MT"publisher.o" -o "publisher.o" "../publisher.c"
+Finished building: ../publisher.c
+ 
+Building target: MQTT_publisher
+Invoking: GCC C Linker
+gcc  -o "MQTT_publisher"  ./publisher.o   -lpaho-mqtt3c
+Finished building target: MQTT_publisher
+ 
+23:55:56 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:57 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+23:58:35 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building file: ../publisher.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"publisher.d" -MT"publisher.o" -o "publisher.o" "../publisher.c"
+Finished building: ../publisher.c
+ 
+Building target: MQTT_publisher
+Invoking: GCC C Linker
+gcc  -o "MQTT_publisher"  ./publisher.o   -lpaho-mqtt3c
+Finished building target: MQTT_publisher
+ 
+23:58:35 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+23:58:36 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:00:16 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building file: ../publisher.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"publisher.d" -MT"publisher.o" -o "publisher.o" "../publisher.c"
+../publisher.c: In function ‘handler’:
+../publisher.c:27:55: error: expected ‘,’ or ‘;’ before ‘)’ token
+   27 |  char str[] = "Disconnecting mqtt client....goodbye\n");
+      |                                                       ^
+make: *** [subdir.mk:20: publisher.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:00:16 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:00:16 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:00:32 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+Building file: ../publisher.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"publisher.d" -MT"publisher.o" -o "publisher.o" "../publisher.c"
+Finished building: ../publisher.c
+ 
+Building target: MQTT_publisher
+Invoking: GCC C Linker
+gcc  -o "MQTT_publisher"  ./publisher.o   -lpaho-mqtt3c
+Finished building target: MQTT_publisher
+ 
+00:00:33 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:00:33 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:14:48 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:14:48 **** Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+00:14:49 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:14:49 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:32:48 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:32:49 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+../subscriber.c: In function ‘got_mail’:
+../subscriber.c:46:44: error: expected ‘;’ before ‘return’
+   46 |  printf("Received: %s",(char*)msg->payload)
+      |                                            ^
+      |                                            ;
+   47 |  return 1;
+      |  ~~~~~~                                     
+../subscriber.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+make: *** [subdir.mk:20: subscriber.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:32:49 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:32:49 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:32:51 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:32:52 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+00:32:52 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:32:52 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:33:53 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:33:53 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+00:33:54 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:33:54 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:36:22 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:36:22 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+../subscriber.c: In function ‘main’:
+../subscriber.c:99:3: error: too many arguments to function ‘getchar’
+   99 |   getchar(ch);
+      |   ^~~~~~~
+In file included from ../subscriber.c:16:
+/usr/include/stdio.h:492:12: note: declared here
+  492 | extern int getchar (void);
+      |            ^~~~~~~
+make: *** [subdir.mk:20: subscriber.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:36:23 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:36:23 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:36:33 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:36:33 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+../subscriber.c: In function ‘main’:
+../subscriber.c:61:6: warning: variable ‘ch’ set but not used [-Wunused-but-set-variable]
+   61 |  int ch;
+      |      ^~
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+00:36:34 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:36:34 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:37:19 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+make: Nothing to be done for 'all'.
+00:38:51 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:38:51 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+../subscriber.c: In function ‘got_mail’:
+../subscriber.c:49:32: error: ‘topicName’ undeclared (first use in this function)
+   49 |     printf("     topic: %s\n", topicName);
+      |                                ^~~~~~~~~
+../subscriber.c:49:32: note: each undeclared identifier is reported only once for each function it appears in
+../subscriber.c:51:18: error: ‘message’ undeclared (first use in this function)
+   51 |     payloadptr = message->payload;
+      |                  ^~~~~~~
+../subscriber.c: In function ‘main’:
+../subscriber.c:76:6: warning: variable ‘ch’ set but not used [-Wunused-but-set-variable]
+   76 |  int ch;
+      |      ^~
+make: *** [subdir.mk:20: subscriber.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:38:51 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:38:52 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:39:33 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:39:34 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+../subscriber.c: In function ‘main’:
+../subscriber.c:76:6: warning: variable ‘ch’ set but not used [-Wunused-but-set-variable]
+   76 |  int ch;
+      |      ^~
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+00:39:34 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:39:34 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:39:52 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+make: Nothing to be done for 'all'.
+00:41:47 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:41:47 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+../subscriber.c: In function ‘main’:
+../subscriber.c:76:6: warning: variable ‘ch’ set but not used [-Wunused-but-set-variable]
+   76 |  int ch;
+      |      ^~
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+00:41:48 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:41:48 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:42:01 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+make: Nothing to be done for 'all'.
+00:43:17 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+00:43:17 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+../subscriber.c: In function ‘main’:
+../subscriber.c:62:6: warning: variable ‘ch’ set but not used [-Wunused-but-set-variable]
+   62 |  int ch;
+      |      ^~
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+00:43:18 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+00:43:18 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+00:43:23 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:48 **** Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:49 **** Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+../subscriber.c: In function ‘main’:
+../subscriber.c:62:6: warning: variable ‘ch’ set but not used [-Wunused-but-set-variable]
+   62 |  int ch;
+      |      ^~
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+19:52:49 **** Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:50 **** Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:10 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:11 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+19:53:11 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:12 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:31 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.

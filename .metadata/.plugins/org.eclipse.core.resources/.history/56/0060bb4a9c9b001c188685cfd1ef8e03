@@ -1,0 +1,35 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 4, 2022
+ *      Author: bergma
+ */
+
+
+#include <iostream>
+#include <fstream>
+#include <string>
+
+#define SERVER_H_LOOKUP 'server_hostname'
+
+using namespace std;
+
+int main(void)
+{
+	fstream conf_file;
+
+	string line,s;
+	const char delim[] = "	";
+
+	conf_file.open("~/Gokart_CAN_API/Power_off/server.conf", fstream::in);
+
+	while (getline(conf_file, line))
+	{
+		if (line[0] != '#')
+		{
+			getline(line, s, delim;
+		}
+	}
+
+	return 0;
+}

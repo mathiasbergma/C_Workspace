@@ -1,0 +1,1 @@
+publisher.o: ../publisher.c

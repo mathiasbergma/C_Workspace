@@ -1,0 +1,1 @@
+subscriber.o: ../subscriber.c

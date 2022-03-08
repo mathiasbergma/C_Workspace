@@ -1,0 +1,6 @@
+19:53:31 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+
+19:53:31 Build Finished. 0 errors, 0 warnings. (took 297ms)
+

@@ -1,0 +1,22 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 4, 2022
+ *      Author: bergma
+ */
+
+
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main(void)
+{
+	fstream conf_file;
+
+	conf_file.open("~/Gokart_CAN_API/Power_off/server.conf", in);
+
+
+	return 0;
+}
