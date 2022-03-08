@@ -1,6 +1,6 @@
-19:53:11 **** Incremental Build of configuration Debug for project Read_conf ****
+22:56:26 **** Incremental Build of configuration Debug for project Read_conf ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:53:12 Build Finished. 0 errors, 0 warnings. (took 287ms)
+22:56:26 Build Finished. 0 errors, 0 warnings. (took 302ms)
 

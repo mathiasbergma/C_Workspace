@@ -5,6 +5,14 @@
  *      Author: bergma
  */
 
+
+/*
+ * client.c
+ *
+ *  Created on: Mar 7, 2022
+ *      Author: bergma
+ */
+//#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include "MQTTClient.h"

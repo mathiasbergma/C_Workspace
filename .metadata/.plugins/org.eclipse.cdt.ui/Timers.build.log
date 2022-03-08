@@ -1,6 +1,6 @@
-19:53:12 **** Incremental Build of configuration Debug for project Timers ****
+22:56:26 **** Incremental Build of configuration Debug for project Timers ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:53:12 Build Finished. 0 errors, 0 warnings. (took 296ms)
+22:56:27 Build Finished. 0 errors, 0 warnings. (took 287ms)
 

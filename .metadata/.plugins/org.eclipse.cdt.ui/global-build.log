@@ -2551,3 +2551,160 @@ make: Nothing to be done for 'all'.
 19:53:31 **** Incremental Build of configuration Debug for project MQTT_publisher ****
 make all 
 make: Nothing to be done for 'all'.
+22:44:56 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+22:44:57 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+22:44:57 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+22:44:58 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+22:45:03 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+make: Nothing to be done for 'all'.
+22:49:46 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+22:49:46 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+../subscriber.c: In function ‘got_mail’:
+../subscriber.c:57:36: warning: format ‘%s’ expects argument of type ‘char *’, but argument 5 has type ‘void *’ [-Wformat=]
+   57 |  fprintf(fp, "%s\t Topic = %s\t\t %s \n", todayDateStr, topic, msg->payload);
+      |                                   ~^                           ~~~~~~~~~~~~
+      |                                    |                              |
+      |                                    char *                         void *
+      |                                   %p
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+22:49:47 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+22:49:47 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+22:49:55 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+22:49:56 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+22:49:56 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+22:49:56 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+22:50:28 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+22:50:28 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+22:50:29 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+22:50:29 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+22:52:32 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+22:52:32 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+22:52:32 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+22:52:33 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+22:55:10 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+22:55:11 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+22:55:11 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+22:55:11 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.
+22:56:25 **** Incremental Build of configuration Debug for project MQTT_publisher ****
+make all 
+make: Nothing to be done for 'all'.
+22:56:26 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+make all 
+Building file: ../subscriber.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"subscriber.d" -MT"subscriber.o" -o "subscriber.o" "../subscriber.c"
+Finished building: ../subscriber.c
+ 
+Building target: MQTT_subscriber
+Invoking: GCC C Linker
+gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+Finished building target: MQTT_subscriber
+ 
+22:56:26 **** Incremental Build of configuration Debug for project Read_conf ****
+make all 
+make: Nothing to be done for 'all'.
+22:56:26 **** Incremental Build of configuration Debug for project Timers ****
+make all 
+make: Nothing to be done for 'all'.

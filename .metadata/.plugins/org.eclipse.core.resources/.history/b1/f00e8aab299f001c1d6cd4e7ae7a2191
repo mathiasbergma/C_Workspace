@@ -5,6 +5,14 @@
  *      Author: bergma
  */
 
+
+/*
+ * client.c
+ *
+ *  Created on: Mar 7, 2022
+ *      Author: bergma
+ */
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include "MQTTClient.h"
@@ -23,10 +31,6 @@ MQTTClient client;
 MQTTClient_deliveryToken token;
 MQTTClient_message pubmsg = MQTTClient_message_initializer;
 
-char   todayDateStr[100];
-time_t rawtime;
-struct tm *timeinfo;
-
 FILE * fp;
 
 void handler(int sig)
@@ -36,21 +40,13 @@ void handler(int sig)
 	/********** Disconnect & destroy *********/
 	MQTTClient_disconnect(client, 10000);
 	MQTTClient_destroy(&client);
-	fclose(fp);
 
     exit(EXIT_SUCCESS);
 
 }
 int got_mail(void * context, char * topic, int topicLen, MQTTClient_message *msg)
 {
-	time ( &rawtime );
-	timeinfo = localtime ( &rawtime );
-	strftime(todayDateStr, strlen("DD-MMM-YYYY HH:MM:SS")+1,"%d-%b-%Y %H:%M:%S",timeinfo);
-	printf("todayDateStr = %s ... \n", todayDateStr );
-	fprintf(fp, "%s\t Topic = %s\t\t %s \n", todayDateStr, topic, (char *)msg->payload);
-
 	printf("Received on topic %s: %s\n",topic,(char*)msg->payload);
-
 
 	MQTTClient_freeMessage(&msg);
 	MQTTClient_free(topic);
@@ -67,6 +63,14 @@ int main(void)
 {
 	struct sigaction act;
 
+	char   todayDateStr[100];
+	time_t rawtime;
+	struct tm *timeinfo;
+
+	time ( &rawtime );
+	timeinfo = localtime ( &rawtime );
+	strftime(todayDateStr, strlen("DD-MMM-YYYY HH:MM")+1,"%d-%b-%Y %H:%M",timeinfo);
+	printf("todayDateStr = %s ... \n", todayDateStr );
 
 	fp = fopen("mqtt_receive.log","a");
 
