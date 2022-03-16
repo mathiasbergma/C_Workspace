@@ -1,4 +1,4 @@
-22:56:26 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
+21:50:12 **** Incremental Build of configuration Debug for project MQTT_subscriber ****
 make all 
 Building file: ../subscriber.c
 Invoking: GCC C Compiler
@@ -7,9 +7,9 @@ Finished building: ../subscriber.c
  
 Building target: MQTT_subscriber
 Invoking: GCC C Linker
-gcc  -o "MQTT_subscriber"  ./subscriber.o   -lpaho-mqtt3c
+gcc  -o "MQTT_subscriber"  ./queue.o ./subscriber.o   -lpaho-mqtt3c -lmicrohttpd
 Finished building target: MQTT_subscriber
  
 
-22:56:26 Build Finished. 0 errors, 0 warnings. (took 395ms)
+21:50:12 Build Finished. 0 errors, 0 warnings. (took 394ms)
 

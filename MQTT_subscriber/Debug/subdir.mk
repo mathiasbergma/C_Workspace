@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../queue.c \
 ../subscriber.c 
 
 OBJS += \
+./queue.o \
 ./subscriber.o 
 
 C_DEPS += \
+./queue.d \
 ./subscriber.d 
 
 

@@ -78,24 +78,36 @@ int main(void)
 		printf("Failed to connect, return code %d, trying again in 2 sec\n",rc);
 		sleep(2);
 	}
-	char msg[] = "Hi from publisher";
-	/********** Load message to be sent *********/
-	pubmsg.payload = msg;
-	pubmsg.payloadlen = strlen(msg);
-	pubmsg.qos = QOS;
-	pubmsg.retained = 0;
+	printf("Client connected\n");
 
-	while (1)
-	{
-		sleep(5);
-		/********** Publish message ***********/
-		MQTTClient_publishMessage(client, TOPIC, &pubmsg, &token);
+		char msg[100];
 
-		/********** Waiting on acknowledge from broker *********/
-		printf("Delivering ON msg to server\n");
-		rc = MQTTClient_waitForCompletion(client, token, TIMEOUT);
-		printf("Message with token %d delivered.\n", token);
-	}
+		scanf("%s",msg);
+		/********** Load message to be sent *********/
+		pubmsg.payload = msg;
+		pubmsg.payloadlen = strlen(msg);
+		pubmsg.qos = QOS;
+		pubmsg.retained = 0;
+
+		while (1)
+		{
+			/********** Publish message ***********/
+			MQTTClient_publishMessage(client, TOPIC, &pubmsg, &token);
+
+			/********** Waiting on acknowledge from broker *********/
+			printf("Delivering msg to server\n");
+			rc = MQTTClient_waitForCompletion(client, token, TIMEOUT);
+			printf("Message with token %d delivered.\n", token);
+
+			char msg[300];
+
+			scanf("%s",msg);
+			/********** Load message to be sent *********/
+			pubmsg.payload = msg;
+			pubmsg.payloadlen = strlen(msg);
+			pubmsg.qos = QOS;
+			pubmsg.retained = 0;
+		}
 
 
 

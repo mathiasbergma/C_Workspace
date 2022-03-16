@@ -1,1 +1,3 @@
-subscriber.o: ../subscriber.c
+subscriber.o: ../subscriber.c ../queue.h
+
+../queue.h:

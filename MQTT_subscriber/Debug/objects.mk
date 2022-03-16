@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lpaho-mqtt3c
+LIBS := -lpaho-mqtt3c -lmicrohttpd
 

@@ -1,1 +1,4 @@
 1646692830645	Rename resource 'MQTT_client'
+1646849274767	Delete resource 'MQTT_Subscriber/subscriber.c'
+1646855237091	Delete resource 'MQTT_Subscriber'
+1646898575544	Delete resource 'pro_sub'
